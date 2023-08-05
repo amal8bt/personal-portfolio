@@ -65,7 +65,7 @@ export const experiencesData = [
     title: "Licence in Telecommunication",
     location: "High Institut of technologies and communications",
     description:
-      "Training program in web developement, graphic design and digital marketing.",
+      "Gaining expertise in telecommunications, understanding the core principles of information technologies, algorithms, and data structures, proved to be an essential advantage in my career.",
     icon: React.createElement(LuGraduationCap),
     date: "2018-2021",
   },
@@ -73,7 +73,7 @@ export const experiencesData = [
     title: "BTS in Multimedia & marketing",
     location: "CSFT Tunis",
     description:
-      "Training program in web developement, graphic design and digital marketing.",
+      "This training program help me to learn and master web developement, graphic design and digital marketing.",
     icon: React.createElement(LuGraduationCap),
     date: "2021-2023",
   },
@@ -123,12 +123,12 @@ export const projectsData = [
     imageUrl: beyang,
   },
   {
-    title: "MYL",
+    title: "Edu-TALKS",
     type:"site",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: myl,
+      "An educational blog for students, aimed at enhancing their online learning experience and keeping them updated by providing the latest educational news.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
+    imageUrl: edu,
   },
   {
     title: "Shopy",
@@ -139,26 +139,26 @@ export const projectsData = [
     imageUrl: shopy,
   },
   {
-    title: "Edu-TALKS",
+    title: "MYL",
     type:"site",
     description:
-      "an educational platform for students, to facilitating their learning by providing them the opportunity to subscribe to online courses.",
-    tags: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MySQL"],
-    imageUrl: edu,
+      "Landing page for a coaching cabinet to organize its events.",
+    tags: ["Wordpress", "Forminator", "Elementor","Elegant"],
+    imageUrl: myl,
   },
   {
     title: "Digital Agency",
     type:"site",
     description:
-      "An e-commerce website that enables businesses to showcase and sell their products or services to customers.",
-    tags: ["HTML", "SASS", "JAVASCRIPT", "BOOTSRAP", "jQuery"],
+      "A landing page for digital agency to showcase their services and get in touch with clients.",
+    tags: ["HTML", "CSS", "JAVASCRIPT", "jQuery", "WORDPRESS"],
     imageUrl: agency,
   },
   {
     title: "Educational Platform",
     type:"design",
     description:
-      "An e-commerce website that enables businesses to showcase and sell their products or services to customers.",
+      "A website mockup designed to offer free courses to students and assist them in enrolling for their chosen courses.",
     tags: ["Figma"],
     imageUrl: edc,
   },
@@ -166,7 +166,7 @@ export const projectsData = [
     title: "Dforu agency",
     type:"design",
     description:
-      "An e-commerce website that enables businesses to showcase and sell their products or services to customers.",
+      "A website mockup designed to manage freelancers' work and facilitate their communication with clients.",
     tags: ["Figma"],
     imageUrl: dforu,
   },
@@ -174,7 +174,7 @@ export const projectsData = [
     title: "Top Event",
     type:"design",
     description:
-      "An e-commerce website that enables businesses to showcase and sell their products or services to customers.",
+      "A mobile app mockup designed to assist individuals in organizing their events, while also help event agencies to showcase their services.",
     tags: ["Figma","Adobe XD"],
     imageUrl: eve,
   },
