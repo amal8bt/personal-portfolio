@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --line-color: #e5e7eb;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.2);
+}
+.catLink{
+  font-size:1vw;
+  cursor:pointer;
+  color: #757a7d;
+  padding: 15px 20px;
+  border-radius: 35px;
+}
+.coloredText{
+  background: -webkit-linear-gradient(#b782b8, #50768d);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.borderBlack {
+  @apply border border-black/10;
+}
+.skill{
+  width: 60px;
+  height: 60px;
+}
+@media screen and (max-width: 1300px) {
+  .catLink{
+    font-size:1.2vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .catLink{
+    font-size:1.5vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .catLink{
+    font-size:2vw;
+  }
+}
+@media screen and (max-width: 530px) {
+  .catLink{
+    font-size:3vw;
+  }
+}
+/* font-size:3.5vw; */
